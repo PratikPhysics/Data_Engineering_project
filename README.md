@@ -1,19 +1,10 @@
 # 🛒 BigMart Sales Forecasting Pipeline
 
-This project demonstrates a complete end-to-end **Data Engineering and Machine Learning pipeline** that predicts retail sales using historical data from BigMart. It includes automated ETL, database storage, model training, and deployment via a Streamlit app.
+This project showcases a complete **Data Engineering + Machine Learning pipeline** using BigMart retail sales data. It includes automated data ingestion, MySQL database setup, model training, and deployment via a Streamlit app.
 
+👉 **Live Demo:** [https://dataengineeringproject-bigmart.streamlit.app](https://dataengineeringproject-bigmart.streamlit.app)
 
-
-## 🚀 Project Highlights
-
-✅ Structured Data Pipeline  
-✅ Relational Database (MySQL) Integration  
-✅ Data Cleaning & Feature Engineering  
-✅ Model Training using Gradient Boosting  
-✅ Joblib Model Serialization  
-✅ Streamlit App for Prediction  
-
-
+---
 
 ## 🧱 Architecture Overview
 

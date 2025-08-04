@@ -17,7 +17,7 @@ This project demonstrates a complete end-to-end **Data Engineering and Machine L
 
 ## 🧱 Architecture Overview
 
-```mermaid
+
 graph TD
   A[Raw CSV File] --> B[MySQL Database]
   B --> C[Python Data Processing]

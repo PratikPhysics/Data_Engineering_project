@@ -21,6 +21,6 @@ This project demonstrates a complete end-to-end **Data Engineering and Machine L
 graph TD
   A[Raw CSV File] --> B[MySQL Database]
   B --> C[Python Data Processing]
-  C --> D[GradientBoosting Model]
+  C --> D[Gradient Boosting Model]
   D --> E[Model Export (joblib)]
   E --> F[Streamlit Web App]

@@ -2,7 +2,7 @@
 
 This project demonstrates a complete end-to-end **Data Engineering and Machine Learning pipeline** that predicts retail sales using historical data from BigMart. It includes automated ETL, database storage, model training, and deployment via a Streamlit app.
 
----
+
 
 ## 🚀 Project Highlights
 
@@ -13,7 +13,7 @@ This project demonstrates a complete end-to-end **Data Engineering and Machine L
 ✅ Joblib Model Serialization  
 ✅ Streamlit App for Prediction  
 
----
+
 
 ## 🧱 Architecture Overview
 

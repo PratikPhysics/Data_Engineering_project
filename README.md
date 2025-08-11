@@ -11,9 +11,9 @@ This project showcases a complete **Data Engineering + Machine Learning pipeline
 ```mermaid
 flowchart TD
     subgraph Ingestion [📥 Data Ingestion]
-        A1[📄 df_item.csv] --> A4[(MySQL: item_info)]
-        A2[📄 df_outlet.csv] --> A5[(MySQL: outlet_info)]
-        A3[📄 df_sales.csv] --> A6[(MySQL: sales_info)]
+        A1[📄 df_item.xml] --> A4[(MySQL: item_info)]
+        A2[📄 df_outlet.xml] --> A5[(MySQL: outlet_info)]
+        A3[📄 df_sales.xml] --> A6[(MySQL: sales_info)]
     end
 
     subgraph Processing [⚙️ Data Processing]

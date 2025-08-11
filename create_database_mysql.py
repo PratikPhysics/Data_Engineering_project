@@ -15,10 +15,10 @@ cursor = connection.cursor()
 cursor.execute("CREATE DATABASE IF NOT EXISTS BigMart")
 cursor.execute("USE BigMart")
 
-# === 3. Load the 3 CSV Files ===
-df_item = pd.read_csv('df_item.csv')
-df_outlet = pd.read_csv('df_outlet.csv')
-df_sales = pd.read_csv('df_sales.csv')
+# === 3. Load the 3 XML Files ===
+df_item = pd.read_xml('df_item.xml')
+df_outlet = pd.read_xml('df_outlet.xml')
+df_sales = pd.read_xml('df_sales.xml')
 
 # === 4. Create Tables Automatically ===
 def create_table_from_df(df, table_name):

@@ -26,7 +26,7 @@ flowchart TD
 
     subgraph Modeling [🤖 Model Training]
         B3 --> C1[📈 GradientBoostingRegressor]
-        C1 --> C2[💾 Save bigmart_model.joblib]
+        C1 --> C2[💾 Save bigmart_best_model.pkl]
     end
 
     subgraph Deployment [🚀 Streamlit App]
